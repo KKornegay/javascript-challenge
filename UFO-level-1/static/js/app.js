@@ -42,6 +42,8 @@ function runEnter() {
   // Create if statement to place filtered data into table
     if(filteredData.length !== 0) {
         
+        // clear out table data
+        tbody.html("");
         // Reuse arrow function to append filtered data into table
         filteredData.forEach((ufoListensFiltered) => {
             var row = tbody.append("tr");
@@ -51,9 +53,10 @@ function runEnter() {
             });
         })}
     else {
+            // clear out table data
     		tbody.html("");
             
-    		
+    		// append in statement that no data is available
     		tbody.append("tr").append("td").text("no sightings on this date");
     	    }
         }
