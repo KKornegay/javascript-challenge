@@ -15,6 +15,6 @@ For this Project I was asked to:
 
 * Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appended a table to your web page and then added new rows of data for each UFO sighting.
 
-  * Made sure I had a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
+  * Make sure I had a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
 
 * Use a date form in the HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
